@@ -1,0 +1,12 @@
+# Package Information for pkg-config
+
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: zxing
+Description: Zxing C++ Library
+Version: 1.0
+Libs: -L${exec_prefix}/lib -lzxing
+Cflags: -I${includedir}
